@@ -22,7 +22,10 @@ Rules of thumb applied to every item:
 
 ## Done
 
-Nothing yet.
+- [x] **basvuru-takip** · shipped 2026-08-20. Written before this repository existed and published here as-is; no queue item.
+- [x] **cold-email** · shipped 2026-08-20. Written before this repository existed and published here as-is; no queue item.
+- [x] **cv-uyarla** · shipped 2026-08-20. Written before this repository existed and published here as-is; no queue item.
+- [x] **mulakat-hazirlik** · shipped 2026-08-20. Written before this repository existed and published here as-is; no queue item.
 
 ## Queue
 

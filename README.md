@@ -48,9 +48,9 @@ asked. The description was written for the wrong phrasing. Say what you asked
 and what you expected, and it gets fixed — that feedback is more valuable than
 working around it.
 
-**What is actually built** is the Done section of [BACKLOG.md](BACKLOG.md).
-Everything under Queue is planned and does not exist yet. The daily loop builds
-one item a day; the table above is the intended shape, not the current state.
+**What is actually built** is listed under Contents below and in the Done
+section of [BACKLOG.md](BACKLOG.md). Everything under Queue is planned and does
+not exist yet.
 
 ## Layout
 
@@ -69,23 +69,19 @@ examples/
 
 See [BACKLOG.md](BACKLOG.md). The first unchecked item is the one being built.
 
-## Planned contents
+## Contents
 
-Nothing here is built yet. This table is the intended shape, and the daily loop
-fills it in one item at a time.
+| Skill | What it does |
+| --- | --- |
+| [basvuru-takip](skills/basvuru-takip) | Track job and internship applications in one file: what was sent when, what came back, and who is owed a follow-up. |
+| [cold-email](skills/cold-email) | Write a cold email that earns a reply, with the pretext stated rather than manufactured. |
+| [cv-uyarla](skills/cv-uyarla) | Adapt a CV to a specific posting against the posting's own wording, without inventing experience. |
+| [mulakat-hazirlik](skills/mulakat-hazirlik) | Prepare for a named interview: the questions that role actually asks, and the answers evidenced from your own history. |
 
-| # | Skill | What it does |
-| --- | --- | --- |
-| 001 | [read-the-posting](skills/read-the-posting) | Work out what a posting is actually screening for, separating the requirements from the boilerplate and the negotiable from the hard filters. |
-| 002 | [tailor-the-cv](skills/tailor-the-cv) | Reorder and re-emphasise real experience against a specific posting, with a hard rule against adding anything that did not happen and a check that enforces it. |
-| 003 | [evidence-bank](skills/evidence-bank) | Build the reusable store of what you actually did — the decision, the constraint, the outcome, the number — so tailoring is selection rather than invention. |
-| 004 | [cover-letter-that-is-not-generic](skills/cover-letter-that-is-not-generic) | Write the letter that could only have been sent to this employer, and the test that proves it. |
-| 005 | [interview-prep](skills/interview-prep) | Prepare around the decisions you made rather than the roles you held, including the questions that are actually being asked underneath the ones asked out loud. |
-| 006 | [technical-case-prep](skills/technical-case-prep) | Work through the case formats that appear in consulting and finance interviews, with the reasoning made visible rather than the answer memorised. |
-| 007 | [questions-to-ask](skills/questions-to-ask) | The questions that tell you whether to accept, as opposed to the ones that perform interest. |
-| 008 | [offer-comparison](skills/offer-comparison) | Compare offers on what actually differs — trajectory, autonomy, what you will be doing on a Tuesday — with compensation as one input rather than the frame. |
-| 009 | [application-tracker](skills/application-tracker) | Track what was sent where, what stage each is at, and what follow-up is due, so the pipeline is visible rather than remembered. |
+These arrived already written and in daily use, rather than being built against the queue below — which is why most carry no item number. Some have Turkish bodies: they were written in the language they are used in, and translating them is a queue item rather than a blocker.
 
+Everything still under Queue in [BACKLOG.md](BACKLOG.md) does not exist
+yet. The daily loop builds one item a day.
 ## Licence
 
 MIT. See [LICENSE](LICENSE).
