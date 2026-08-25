@@ -3,54 +3,55 @@ name: "basvuru-takip"
 description: "İş ve staj başvurularını tek dosyada takip eder — yeni başvuru ekler, durumları günceller, hangisine ne zaman dönüş yapılması gerektiğini söyler. \"Başvuru ekle\", \"başvurularım ne durumda\", \"şu şirkete başvurdum\", \"kimden dönüş bekliyorum\", \"takip maili atmalı mıyım\" dendiğinde kullan. Also triggers on \"add an application\", \"where do my applications stand\", \"I applied to this company\", \"who still owes me a reply\", \"should I send a follow-up\". CV'yi ilana göre uyarlamak için cv-uyarla, mülakat hazırlığı için mulakat-hazirlik kullan."
 ---
 
-# Başvuru Takibi
+# Tracking applications
 
-Tek kaynak: `kariyer/basvurular.md`. Yoksa oluştur.
+One source of truth: `kariyer/basvurular.md`. Create it if it does not exist.
 
-## Tablo formatı
+## Table format
 ```
-| Şirket | Pozisyon | Kanal | Başvuru | Durum | Son temas | Sonraki adım | Not |
+| Company | Role | Channel | Applied | Status | Last contact | Next step | Note |
 ```
-**Durum** şunlardan biri: `gonderildi` · `okundu` · `gorusme` · `teklif` ·
-`red` · `sessiz` · `vazgectim`
+**Status** is one of: `gonderildi` · `okundu` · `gorusme` · `teklif` · `red` ·
+`sessiz` · `vazgectim`
 
-Her satırın altına ilan linkini ve varsa iletişim kişisini yaz.
+Under each row, write the link to the posting and the contact person if there is
+one.
 
-## Yeni başvuru eklerken
-İlan linki verilirse **oku**: pozisyon, şirket, son başvuru tarihi, aranan
-nitelikleri çıkar. Kullanıcıya sorma, ilandan al. Ulaşamıyorsan söyle.
+## When adding a new application
+If a posting link is given, **read it**: pull out the role, the company, the
+closing date and the qualifications sought. Do not ask the user for these; take
+them from the posting. If you cannot reach it, say so.
 
-Satırı ekle, `Sonraki adım` sütununa **tarih koy** — takip maili için
-7 iş günü sonrası varsayılan.
+Add the row and **put a date** in the `Next step` column — seven working days
+out is the default for a follow-up.
 
-## "Durum ne" dendiğinde
-Ham tabloyu dökme. Şunu üret:
+## When asked "where do things stand"
+Do not dump the raw table. Produce this:
 
 ```
-## Aksiyon bekleyen (N)
-- Şirket — Pozisyon — ne yapmalı — kaç gündür bekliyor
+## Waiting on action (N)
+- Company — Role — what to do — how many days it has been waiting
 
-## Hareket var
-- (son 7 günde durumu değişenler)
+## Movement
+- (anything whose status changed in the last 7 days)
 
-## Sessiz  (14+ gün dönüş yok)
-- Şirket — takip maili atılsın mı?
+## Silent  (14+ days with no reply)
+- Company — send a follow-up?
 
-## Özet
-X aktif · Y görüşme · Z sonuçlandı
+## Summary
+X active · Y interviewing · Z closed
 ```
 
-## Takip maili
-`sessiz` durumundakiler için taslak yaz:
-- 4-6 cümle, tek soru
-- İlgini yeniden göster ama yalvarma tonu yok
-- Somut bir şey ekle: yeni bir proje, ilgili bir gelişme
-- **Gönderme, taslak göster.**
+## The follow-up email
+Draft one for anything in `sessiz`:
+- Four to six sentences, one question
+- Show renewed interest without a pleading tone
+- Add something concrete: a new project, a relevant development
+- **Do not send it. Show the draft.**
 
-## Kurallar
-- Tarihleri `YYYY-MM-DD` yaz. "geçen hafta" değil.
-- Red gelenleri silme, `red` işaretle — hangi tür pozisyonda ne olduğunu
-  görmek zamanla desen çıkarır.
-- 3+ red aynı aşamada geldiyse (örn. hep teknik mülakatta) bunu söyle;
-  desen tesadüf değildir.
-- Türkçe yaz.
+## Rules
+- Write dates as `YYYY-MM-DD`. Not "last week".
+- Do not delete rejections; mark them `red` — seeing which kind of role produced
+  which outcome reveals a pattern over time.
+- If three or more rejections arrive at the same stage (always at the technical
+  interview, say), point that out; a pattern is not a coincidence.
