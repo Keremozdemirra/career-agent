@@ -5,3 +5,6 @@ __pycache__/
 node_modules/
 dist/
 build/
+
+# Claude taşıdı, elle silinecek
+_to_delete/

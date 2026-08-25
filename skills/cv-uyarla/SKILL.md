@@ -1,6 +1,6 @@
 ---
 name: "cv-uyarla"
-description: "CV'yi belirli bir ilana göre uyarlar — ilandaki dili ve önceliklendirmeyi CV'ye taşır, uyumsuz noktaları dürüstçe işaretler. \"CV'mi şu ilana göre düzenle\", \"bu pozisyona uygun mu\", \"CV uyarla\", \"başvuru için CV hazırla\", \"hangi deneyimimi öne çıkarayım\" dendiğinde kullan."
+description: "CV'yi belirli bir ilana göre uyarlar — ilandaki dili ve önceliklendirmeyi CV'ye taşır, uyumsuz noktaları dürüstçe işaretler. \"CV'mi şu ilana göre düzenle\", \"bu pozisyona uygun mu\", \"CV uyarla\", \"başvuru için CV hazırla\", \"hangi deneyimimi öne çıkarayım\" dendiğinde kullan. Also triggers on \"tailor my CV to this posting\", \"am I a fit for this role\", \"which experience should I lead with\", \"get my CV ready for this application\". Başvurunun durumunu takip etmek için basvuru-takip, mülakat hazırlığı için mulakat-hazirlik kullan."
 ---
 
 # CV Uyarlama

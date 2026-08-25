@@ -1,6 +1,6 @@
 ---
 name: "mulakat-hazirlik"
-description: "Belirli bir şirket ve pozisyon için mülakat hazırlığı yapar — şirketi araştırır, olası soruları çıkarır, hikâyelerini yapılandırır ve sorulacak soruları hazırlar. \"Mülakatım var\", \"şu şirketle görüşeceğim\", \"mülakata hazırlan\", \"ne sorabilirler\", \"hangi soruları sormalıyım\" dendiğinde kullan."
+description: "Belirli bir şirket ve pozisyon için mülakat hazırlığı yapar — şirketi araştırır, olası soruları çıkarır, hikâyelerini yapılandırır ve sorulacak soruları hazırlar. \"Mülakatım var\", \"şu şirketle görüşeceğim\", \"mülakata hazırlan\", \"ne sorabilirler\", \"hangi soruları sormalıyım\" dendiğinde kullan. Also triggers on \"I have an interview\", \"help me prepare for this company\", \"what might they ask me\", \"what should I ask them\". CV uyarlaması için cv-uyarla, başvuru takibi için basvuru-takip kullan."
 ---
 
 # Mülakat Hazırlığı

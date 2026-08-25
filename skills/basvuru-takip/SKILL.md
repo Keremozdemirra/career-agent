@@ -1,6 +1,6 @@
 ---
 name: "basvuru-takip"
-description: "İş ve staj başvurularını tek dosyada takip eder — yeni başvuru ekler, durumları günceller, hangisine ne zaman dönüş yapılması gerektiğini söyler. \"Başvuru ekle\", \"başvurularım ne durumda\", \"şu şirkete başvurdum\", \"kimden dönüş bekliyorum\", \"takip maili atmalı mıyım\" dendiğinde kullan."
+description: "İş ve staj başvurularını tek dosyada takip eder — yeni başvuru ekler, durumları günceller, hangisine ne zaman dönüş yapılması gerektiğini söyler. \"Başvuru ekle\", \"başvurularım ne durumda\", \"şu şirkete başvurdum\", \"kimden dönüş bekliyorum\", \"takip maili atmalı mıyım\" dendiğinde kullan. Also triggers on \"add an application\", \"where do my applications stand\", \"I applied to this company\", \"who still owes me a reply\", \"should I send a follow-up\". CV'yi ilana göre uyarlamak için cv-uyarla, mülakat hazırlığı için mulakat-hazirlik kullan."
 ---
 
 # Başvuru Takibi
