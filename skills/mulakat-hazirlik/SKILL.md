@@ -9,7 +9,7 @@ description: "Belirli bir şirket ve pozisyon için mülakat hazırlığı yapar
 Company · role · interview type (phone / technical / case / final round) · date.
 Ask for whatever is missing. Read the CV and the posting too if they exist.
 
-## 1. Research the company: search, never write from memory
+## 1. Research the company: search first, memory is no source
 - What they do, where the revenue comes from, who the customers are
 - News from the last six months: funding, a product launch, layoffs, a change of
   direction
